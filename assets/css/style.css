@@ -52,15 +52,16 @@ p {
 }
 
 #myName {
-    position: inherit;
-    float: left;
-    margin-left: 290px;
-    padding: 19px;
-    background-color: #436466;
+    padding: 14px 16px;
+    width: 120%;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    color: white;
 }
 
-#topNav {
-    
+#myNameList {
+    float: left;
 }
 
 ul {
@@ -80,6 +81,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-top: 10px;
 }
 
 li a:hover {
