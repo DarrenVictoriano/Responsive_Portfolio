@@ -130,3 +130,42 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+/* Media for screen size 768px */
+@media screen and (max-width: 768px) {
+    /* main body wrapper's width */
+    #header {
+        width: 600px;
+    }
+    #mainBody {
+        width: 590px;
+    }
+
+
+}
+
+/* Media for screen size 768px */
+@media screen and (max-width: 630px) {
+    /* main body wrapper's width */
+    #header {
+        width: 590px;
+    }
+    #mainBody {
+        width: 550px;
+    }
+}
+
+/* Media for screen size 768px */
+@media screen and (max-width: 500px) {
+    /* main body wrapper's width */
+    #header {
+        width: 390px;
+    }
+    #mainBody {
+        width: 310px;
+    }
+
+    #myNameList li {
+        align-self: center;
+    }
+}

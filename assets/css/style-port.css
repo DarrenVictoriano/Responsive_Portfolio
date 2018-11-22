@@ -49,3 +49,31 @@
     padding-top: 20px;
     color: #ccc;
 }
+
+/* Media for screen size 768px */
+@media screen and (max-width: 768px) {
+    /* main body wrapper's width */
+    #artLeftDiv {
+        float: none;
+        width: 100%;
+    }
+    
+    #artRightDiv {
+        float: none;
+        width: 100%;
+        margin-left: 15px;
+    }
+
+}
+
+/* Media for screen size 768px */
+@media screen and (max-width: 630px) {
+    /* main body wrapper's width */
+
+}
+
+/* Media for screen size 768px */
+@media screen and (max-width: 500px) {
+    /* main body wrapper's width */
+
+}
